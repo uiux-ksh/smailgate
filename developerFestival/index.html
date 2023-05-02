@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-kr"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="keywords" content="스마일게이트, 게임, 테일즈런너">
+  <meta name="description" content="스마일게이트 게임 테일즈런너입니다">
+
+  <!-- og tag 정책 (facebook, kakaotalk) -->
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="2023 개발자 페스티벌">
+  <meta property="og:description" content="스마일게이트 게임 테일즈런너입니다">
+  <meta property="og:image" content="./assets/images/img_share_800.jpg">
+  <!--// og tag 정책 (facebook, kakaotalk) -->
+  <!-- twitter tag 정책 -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="2023 개발자 페스티벌">
+  <meta name="twitter:description" content="스마일게이트 게임 테일즈런너입니다">
+  <meta name="twitter:image" content="./assets/images/img_share_800.jpg">
+  <!--// twitter tag 정책 -->
+
+  <link rel="apple-touch-icon" href="https://tr-image.game.onstove.com/mobile/g/favicon.png"/>
+  <link rel="shortcut icon" href="https://tr-image.game.onstove.com/web2012/global/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="https://tr.game.onstove.com/Common/Css/common.css"/>
+  <script type="text/javascript" src="https://tr.game.onstove.com/Common/Js/common.js"></script>
+  <script type="text/javascript" charset="utf-8" src="https://tr.game.onstove.com/common/js/jquery-1.7.2.js"></script>
+
+  <title>2023 개발자 페스티벌 | 뛰어놀자 테일즈런너</title>
+
+  <!-- 이벤트용 https://tr-image.game.onstove.com/event/yyyymm/dd_이벤트명 -->
+  <link rel="stylesheet" type="text/css" href="https://tr-image.game.onstove.com/event/fonts/Pretendard/Pretendard.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/event.css"/>
+  <script type="text/javascript" src="https://tr-image.game.onstove.com/event/common/js/librarys.js"></script>
+  <script type="text/javascript" charset="utf-8" src="./assets/js/ui.js"></script>
+</head>
+<body>
+
+<div id="evt_wrap">
+  <div class="evt-header">
+    <div class="inner hide">
+      <div class="logo"><a href="/index.asp" title="테일즈런너 홈으로">테일즈런너</a></div>
+      <h1>2023 테런 개발자 페스티벌</h1>
+      <button type="button" class="btn btn-caution movie-btn" onclick="popup('[data-popup-id=youtube]','5A-ke4XfETU')">
+        영상보기
+      </button>
+
+      <div class="check-box">
+        <button class="m1" data-check="vote"><span class="hide">신규맵 &amp; 아이템투표</span></button>
+        <button class="m2" data-check="result"><span class="hide">투표 결과 발표</span></button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="evt-content">
+    <div class="content-body">
+      <div class="section01">
+        <div class="inner">
+          <h2 class="title">
+						<span class="hide">
+							함께 만들어 가는 개발자 페스티벌 새로운 맵과 아이템으로 돌아왔습니다!
+						</span>
+          </h2>
+          <div class="content-item">
+            <div class="item-01"></div>
+            <div class="item-02"></div>
+          </div>
+          <!-- 이벤트 내용 삽입 -->
+        </div>
+      </div>
+      <div class="section02">
+        <div class="inner">
+          <h2 class="title">
+						<span class="hide">
+							정식 출시를 희망하는 맵에 투표해 주세요.<br/>
+							투표 기간 : 2023.05.03(수) ~ 2023.05.16(화)까지
+						</span>
+          </h2>
+          <div class="state">
+            <div class="state-bar">
+              <!--
+              화면 타입 data-user-type
+              로그인 전 : 1
+              캐릭터 미생성 : 2
+              로그인 후 : 3
+              -->
+              <ul class="user-state" data-user-type="3">
+                <li class="state-id">
+                  <span class="user-set"></span>
+                  <button class="btn-login">로그인</button>
+                </li>
+                <li class="state-vote">
+                  <i class="heart-icon"></i>
+                  <!--state-vote className 의 count 횟수 변경-->
+                  오늘 사용 가능한 투표권 : <span class="user-set"><span class="count">00</span>회</span>
+                </li>
+                <li class="state-vote-total">
+                  <!--state-vote-total className 의 count 횟수 변경-->
+                  나의 누적 투표 횟수 : <span class="user-set"> <span class="count">00</span>회</span>
+                </li>
+              </ul>
+
+            </div>
+            <div class="section02-state-notice">
+              <ul class="hide">
+                <li>1회 투표할 때마다 ‘2023 개발 코인 1개’가 투표 보상으로 지급됩니다.</li>
+                <li>개발자 페스티벌 채널 맵을 1회 이상 플레이 시 당일 사용 가능한 투표권 1개가 지급됩니다. (1일 최대 3개 획득가능)</li>
+                <li>투표는 투표 종료일까지 매일 최대 3번까지 반복하여 투표하실 수 있습니다.</li>
+                <li>투표 결과를 참고하여 득표수 상위 맵은 추후 정규 맵 편성 검토가 진행될 예정입니다.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content-items section02-content-items"></div>
+          <button class="map-vote-btn" type="button"><span class="hide">투표하기</span></button>
+          <!-- 이벤트 내용 삽입 -->
+        </div>
+      </div>
+      <div class="section03">
+        <div class="inner">
+          <h2 class="title">
+						<span class="hide">
+							정식 출시를 희망하는 아이템에 투표해 주세요.<br/>
+							투표 기간 : 2023.05.03(수) ~ 2023.05.16(화)까지
+						</span>
+          </h2>
+          <div class="state">
+            <div class="state-bar">
+              <!--
+              화면 타입 data-user-type
+              로그인 전 : 1
+              캐릭터 미생성 : 2
+              로그인 후 : 3
+              -->
+              <ul class="user-state"  data-user-type="3">
+                <li class="state-id">
+                  <span class="user-set"></span>
+                  <button class="btn-login">로그인</button>
+                </li>
+                <li class="state-vote">
+                  <i class="heart-icon"></i>
+                  <!--state-vote className 의 count 횟수 변경-->
+                  오늘 사용 가능한 투표권 : <span class="user-set"><span class="count">00</span>회</span>
+                </li>
+                <li class="state-vote-total">
+                  <!--state-vote-total className 의 count 횟수 변경-->
+                  나의 누적 투표 횟수 : <span class="user-set"> <span class="count">00</span>회</span>
+                </li>
+              </ul>
+
+            </div>
+            <div class="section03-state-notice">
+              <ul class="hide">
+                <li>1회 투표할 때마다 ‘2023 개발 코인 1개’가 투표 보상으로 지급됩니다.</li>
+                <li>개발자 페스티벌 채널 맵을 1회 이상 플레이 시 당일 사용 가능한 투표권 1개가 지급됩니다. (1일 최대 3개 획득가능)</li>
+                <li>투표는 투표 종료일까지 매일 최대 3번까지 반복하여 투표하실 수 있습니다.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content-items section03-content-items">
+          </div>
+          <button class="map-vote-btn" type="button"><span class="hide">투표하기</span></button>
+          <!-- 이벤트 내용 삽입 -->
+        </div>
+      </div>
+      <div class="section04">
+        <div class="inner ">
+          <h2  class="title">
+            <span class="hide">누적투표 참여보상 받아가세요! <br/>2023.05.03(수) ~ 2023.05.25(목)까지</span>
+          </h2>
+          <div class="state">
+            <div class="state-bar">
+              <!--
+              화면 타입 data-user-type
+              로그인 전 : 1
+              캐릭터 미생성 : 2
+              로그인 후 : 3
+              -->
+              <ul class="user-state" data-user-type="3">
+                <li class="state-id">
+                  <span class="user-set"></span>
+                  <button class="btn-login">로그인</button>
+                </li>
+              </ul>
+            </div>
+            <div class="state-bottom" data-user-type="3">
+              총 누적 투표 횟수 <span class="count">00</span>회
+            </div>
+
+          </div>
+          <div class="section04-item"></div>
+          <ul class="section04-item-btn">
+            <!--
+            button.complete = 완료
+            button = 비활성
+            button.active = 활성
+            -->
+            <li><button class="complete" type="button"><span class="hide">2023 개발코인 5개</span></button></li>
+            <li><button class="complete" disabled type="button"><span class="hide">2023 개발자 종합박스 1개</span></button></li>
+            <li><button class="active" type="button"><span class="hide">몰랑 베어 박스 1개</span></button></li>
+            <li><button class="active" type="button"><span class="hide">별의 관리자 상자 1개</span></button></li>
+            <li><button type="button"><span class="hide">개발자의 보답 5개</span></button></li>
+            <li><button type="button"><span class="hide">2023 개발자 캡슐 코인 10개</span></button></li>
+            <li><button type="button"><span class="hide">2023 개발 코인 주머니 1개</span></button></li>
+          </ul>
+          <!-- 이벤트 내용 삽입 -->
+        </div>
+      </div>
+      <div class="section05">
+        <div class="inner">
+          <div class="section05-notice">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 덧글 -->
+  <div class="event_comment">
+    <div class="event_comment_in">
+      <!-- 댓글 본문 글씨 색 - color:#000 -->
+      <!-- 간격 Line 색상  Const TABLELINGCOLOR = "#e3e3e3" -->
+      <!-- 댓글남기기 버튼경로 - //tr-image.game.onstove.com/web/Common/btn_reply_181004.jpg -->
+      <iframe src="https://tr.game.onstove.com/event/2020/09/04_ThanksMau/Comment/evtCmtConf.asp" width="980"
+              height="371" frameborder="0" allowTransparency="true" title="덧글게시판"></iframe>
+    </div>
+  </div>
+  <!--// 덧글 -->
+
+  <!-- 푸터 -->
+  <div class="footer">
+    <p class="footer_copyright">&copy; Smilegate. All Rights Reserved. RHAON Entertainment. All Rights Reserved.</p>
+  </div>
+  <!--// 푸터 -->
+</div>
+
+<!-- popup -->
+<div class="popup" data-popup-id="youtube">
+  <div class="popup-inner">
+    <div class="iframe"></div>
+  </div>
+  <button type="button" class="btn btn-close" onclick="popupClose($(this))">닫기</button>
+  <!-- //popup -->
+</div>
+
+<div class="popup" data-popup-id="item">
+  <div class="popup-inner">
+    <div class="popup-item">
+      <div class="content-top">
+        <div class="title"></div>
+        <div class="item-img"></div>
+        <p class="description"></p>
+      </div>
+
+      <div class="content-bottom">
+        <ul>
+          <li><span class="bubble">맵 타입</span></li>
+          <li><span class="bubble">난이도</span></li>
+          <li><span class="bubble">경기 유형</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-close" onclick="popupClose($(this))">닫기</button>
+  <!-- //popup -->
+</div>
+
+<div class="popup" data-popup-id="item02">
+  <div class="popup-inner">
+    <div class="popup-item">
+      <div class="content-top">
+        <div class="title"></div>
+        <div class="item-img"></div>
+        <p class="description"></p>
+      </div>
+
+      <div class="content-bottom">
+        <ul>
+          <li><span class="bubble">유형</span></li>
+          <li><span class="bubble">참고</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-close" onclick="popupClose($(this))">닫기</button>
+  <!-- //popup -->
+</div>
+
+
+</body>
+</html>
